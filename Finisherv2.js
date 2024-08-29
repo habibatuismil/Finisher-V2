@@ -811,7 +811,7 @@ await deltaxcrash.relayMessage(target, etc.message, { participant: { jid: target
 }
 
 //Status
-if (!deltaxcrash.private) {
+if (!deltaxcrash.public) {
 if (!m.key.fromMe) return
 } 
 
@@ -1557,7 +1557,7 @@ break
 'https://telegra.ph/file/4a9dc4ba09484791dfa9a.mp4',
 'https://telegra.ph/file/91d8701c2783775637125.mp4',
 ]
-            await deltaxcrash.sendMessage(m.chat, { video: { url: dir[Math.floor(Math.random() * dir.length)] }, caption: `*_</> done. video anime by ragecrash_*` }, { quoted: m })
+            await deltaxcrash.sendMessage(m.chat, { video: { url: dir[Math.floor(Math.random() * dir.length)] }, caption: `*_</> done. video anime by deltacrash_*` }, { quoted: m })
 	}
         break
 case 'temp-ban': {
